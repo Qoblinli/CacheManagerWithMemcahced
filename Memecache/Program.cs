@@ -85,6 +85,9 @@ namespace Memecache
             {
                 Console.WriteLine(s);
             }
+
+            list.Add("20000");
+
             manager.Update("list", v => list);
             Console.WriteLine("---------------邪恶分割线------------------");
 
@@ -96,7 +99,7 @@ namespace Memecache
             }
 
 
-
+             
 
 
             Console.ReadKey();
